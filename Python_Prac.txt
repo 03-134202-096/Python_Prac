@@ -1,0 +1,447 @@
+# a={"a":2,
+#    "b":3,
+#    "c":5}
+#
+# for i in a.values():
+#    print(i)
+# #
+# #
+# # # print(a.get("a"))
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+#
+# # a=(1,1,2,3)
+# # print(a)
+#
+#
+# # a=list(("A","b"))
+# # print(a)
+#
+# # thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# # print(thislist[1:4])
+#
+# # thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# # print(thislist[-4:-1])
+#
+#
+# # a=["a","b",'C',"a"]
+# # b=[x for x in a if "a" in x]
+# # print(b)
+#
+#
+# # dict={"a":2,
+# #       "b":3,
+# #       "list":["one","two",3,4]}
+# #
+# #
+# # for i,j in dict.items():
+# #     print(j)
+#
+#
+#
+# #
+# # y=lambda x:x+5
+# # print(y(5))
+#
+#
+#
+# # percept= ["Anum" , "Taimur" , "Ali" , "Saad"]
+# # state = ["happy", "sad", "angry", "normal"]
+# # rule= ["smile" , "cry" , "frown", "watch football"]
+# #
+# # def chk(inpt):
+# #     for index,value in enumerate(percept):
+# #         if inpt==value:
+# #             return index
+# #         else:
+# #             return -1
+# #
+# # def get_rule(index):
+# #     if index != -1:
+# #         p=state[index]
+# #         for ind,val in enumerate(state):
+# #             if p==val:
+# #                 return ind
+# #             else:
+# #                 return -1
+# # def agent(pos):
+# #     if pos==-1:
+# #         print("NOT FOUND")
+# #     else:
+# #         print("FOUND")
+# # print("Enter Choice : \n")
+# # agent(get_rule(chk(input("ENTER NAME : "))))
+#
+#
+#
+#
+# #
+# # def GetState(cPercept):
+# #     index=-1
+# #     for p in percept:
+# #         index=index+1
+# #         if p==cPercept:
+# #             return state[index]
+# # def GetRule(cState):
+# #     index=-1
+# #     for s in state:
+# #         index=index+1
+# #         if s==cState:
+# #             return rule[index]
+# # def SimpleReflexAgent(cPercept):
+# #     return GetRule(GetState(cPercept))
+# # print ("MENU: ")
+# # print (" 0:Anum 1:Taimur 2:Ali 3:Saad")
+# # print (SimpleReflexAgent(percept[int(input("Input Number :"))]))
+#
+#
+#
+# # class a:
+# #     v=10
+# #     b=23
+# #     def __init__(self,v,b):
+# #         self.v=v
+# #         self.b=b
+# #     def ok(self):
+# #         print(self.v+self.b)
+# # #
+# # # class b(a):
+# # #     def __init__(self):
+# # #         self.bnn=self.b
+# # #
+# # # obj1=a(2,3)
+# # # # obj=b()
+# # #
+# # # print(obj.bnn)
+# #
+# #
+# #
+# # obj=a(2,3)
+# #
+# # print(obj.v)
+#
+#
+#
+#
+#
+#
+# # import os
+# # filee= open("one.txt","r")
+# # # filee.write("UG")
+# # # os.remove("one.txt")
+# # a=filee.read()
+# #
+# # print(a)
+# #
+# #
+#
+#
+# import numpy as np
+#
+# # #0D Array
+# # ar=np.array(1)
+# # print(ar)
+#
+#
+#
+# # arr=np.array([1,2,3,4,"3ASAD"])
+# # print(arr)
+#
+# #2D
+#
+# # arr=np.array(([1,2,3],[1,2,3]))
+# # print(arr)
+#
+# #3D
+#
+# # arr=np.array([([1,2,3],[4,5,6]),([7,4,3],[8,9,2]),([3,4,3],[8,9,2])])
+# # # print(arr.ndim)
+# # # print(arr[1,1,-3])
+# # #OR
+# # # print(arr[1,1,2])
+# # print(arr[0,1,:1])
+#
+#
+#
+# # N number of dimention(any_dimention)
+#
+# # arr = np.array([1, 2, 3, 4], ndmin=5)
+# #
+# # print(arr)
+# # print('number of dimensions :', arr.ndim)
+#
+# #
+# # arr = np.array([10, 15, 20, 25, 30, 35, 40])
+# #
+# # print(arr
+# # [1:4:2]
+# # )
+#
+#
+#
+#
+#
+# import numpy as np
+#
+# #arr=np.array([[1,2,4,5],[2,3,4,4]])
+# # print(arr.shape)
+#
+# # arr=np.array([[1,2,4,5],[2,3,4,4]])
+# # print(arr.ravel())
+# # print(arr.flatten())
+# #print(arr.reshape(-1))
+# # print(arr.reshape(1,2,4))
+#
+#
+# # arr=np.array((1,2,3,4))
+# # print(arr.reshape(1,2,2))
+#
+# #
+# # import numpy as np
+# #
+# # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+# #
+# # print(arr.reshape(2, 4).base)
+#
+#
+# import numpy as np
+# #
+# # arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+# #
+# # for x in arr:
+# #     for i in x:
+# #         for j in i:
+# #             print(x)
+# #
+# #
+#
+# # arr=np.array(((1,2,3,4),(1,2,3,4)))
+# # for i in np.nditer(arr):
+# #     print(i,end=",")
+#
+# # arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+# # # print(arr[:, ::2])
+# #
+# # for i,j in np.ndenumerate(arr):
+# #     print("INDEX IS : ",i,"VALUE IS : ",j)
+#
+#
+# # ar1=np.array((1,2,3,4))
+# # ar2=np.array((11,22,33,44))
+# #
+# # # a=np.concatenate((ar1,ar2))
+# # # print(a)
+# #
+# # import numpy as np
+# #
+# # arr1 = np.array([[1, 2], [3, 4]])
+# #
+# # arr2 = np.array([[5, 6], [7, 8]])
+# #
+# # arr = np.concatenate((arr1, arr2), axis=1)
+# #
+# # print(arr)
+#
+# # import numpy as np
+# #
+# # arr1 = np.array([1, 2, 3])
+# #
+# # arr2 = np.array([4, 5, 6])
+# #
+# # arr = np.stack((arr1, arr2), axis=1)
+# #
+# # print(arr)
+#
+#
+#
+# # import numpy as np
+# # arr1 = np.array([1, 2, 3])
+# #
+# # arr2 = np.array([4, 5, 6])
+# # arr = np.concatenate((arr1, arr2), axis=1)
+# #
+# # print(arr)
+#
+#
+#
+#
+#
+#
+# import numpy as np
+# a=np.array((1,2))
+# #print(np.hstack(a))
+# # print(np.where(a==1))
+#
+# import numpy as np
+#
+# # arr = np.array([1, 3, 5, 7])
+# #
+# # x = np.searchsorted(arr, [2, 4, 6,0])
+# #
+# # print(x)
+# import numpy as np
+#
+# arr = np.array([1, 3, 5, 7])
+# a=[True, False, True,False]
+#
+#
+#
+#
+# import numpy as np
+#
+# arr = np.array([41, 42, 43, 44])
+#
+# filter_arr = arr>43
+#
+#
+# # from numpy import random as rnd
+# # a=[1,2,4]
+# # print(rnd.choice(a))
+#
+#
+# from numpy import random
+# import numpy as np
+#
+# arr = np.array([1, 2, 3, 4, 5])
+#
+# a=random.shuffle(arr)
+#
+#
+#
+# import pandas as pd
+#
+# # # a=pd.read_csv("Multiple_reg.csv")
+# # a={"A":["ASAD KHOSA","v"],
+# #    "B":["ABDUL BASIT","vd"]
+# #    }
+# #
+# # df=pd.DataFrame(a,index=None)
+# # print(df)
+#
+#
+# # import pandas as pd
+# #
+# # a = {
+# #     "A": ["ASAD KHOSA"],
+# #     "B": ["ABDUL BASIT"]
+# # }
+# #
+# # df = pd.DataFrame(a, index=None)
+# # print(df.to_string(index=False))
+#
+#
+# a={
+#     'a':[1,2,3,4],
+#     'b':[5,6,7,4],
+#     'c':[8,6,5,3]
+# }
+# # df=pd.Series(a,index=["ASAD","KHOSA","3","4"])
+# df=pd.DataFrame(a)
+# # print(df.shape[0])
+#
+# # print(df.loc[0][0])
+#
+# # sries={
+# #     "a":1,
+# #     "b":2
+# # }
+# # ser=pd.Series(sries)
+# # print(ser)
+#
+#
+# # print(df.loc[[0,1,2]])
+#
+#
+# df=pd.read_csv("dirtydata.csv")
+# # print(df.to_string())
+# dataf=pd.DataFrame(df)
+# # print(dataf.loc[18])
+#
+# # print(dataf.isna())
+#
+# # print(dataf.to_string())
+# # print(dataf.fillna("UF",inplace=True))
+# # print(dataf.dropna(inplace=True))
+# # print(dataf.fillna(1,inplace=True))
+#
+#
+# data=pd.read_csv("dirtydata.csv")
+# # # print(data.to_string())
+# # # data=data.fillna("ASAD")
+# # mean=data["Calories"].mean()
+# # data=data["Calories"].fillna(mean)
+# # # print(data)
+# # # print(data.to_string())
+# #
+#
+# # import pandas as pd
+# # df=pd.DataFrame(pd.read_csv("dirtydata.csv"))
+# # df["Date"]=pd.to_datetime(df["Date"],format='%Y%m%d')
+# # print(df)
+#
+# #
+# # import pandas as pd
+# #
+# # df = pd.read_csv('dirtydata.csv')
+# # # df['Date'] = pd.to_datetime(df['Date'])
+# # # df.dropna(subset=['Date'], inplace = True)
+# # # print(df.to_string())
+# #
+# # # df.loc[7,'Duration']=45
+# # # print(df.loc[7])
+# #
+# #
+# # # for iterr in df.index:
+# # #     if df.loc[iterr,"Pulse"]>119:
+# # #         df.drop(iterr)
+# # #         # df.loc[iterr, "Pulse"] = 120
+# # for x in df.index:
+# #     if df.loc[x, "Calories"] > 120:
+# #       df.drop(x, inplace = True)
+# #
+# # df.drop_duplicates()
+# # print(df.to_string())
+# #
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
